@@ -1,0 +1,602 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header_color: #0D4E96;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+body  {
+    background-color: #f3f4f8;
+}
+
+.container .row .navbar .nav ul:first-child li .subnav ul li:hover {
+    transform: scale(1.1);
+}
+
+.container .row .navbar .nav ul:first-child li .subnav ul li{
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+.container .row .navbar .nav ul:first-child li:nth-child(2):hover .subnav{
+    display: block;
+}
+.container .row .navbar .nav ul:first-child li .subnav ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .row .navbar .nav ul:first-child li .subnav {
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border-top: 3px solid var(--header_color);
+    display: none;
+    width: 335px;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+/* css for footer */
+
+.container .footer>div div:first-child {
+    position: relative;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.container .footer > div {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.container .footer > img {
+    position: absolute;
+    left: 200px;
+}
+.container > .footer {
+    
+    position: relative;
+    color: white;
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #0D4E96;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+/* css for about  */
+
+.container .about .about_extend .about_box img {
+    transition: 0.7s;
+    width: 100%;
+}
+
+.container .about .about_extend .about_box .title {
+    line-height: 65px;
+}
+.container .about .about_extend .about_box .img > img:hover {
+    transform: scale(1.2);
+}
+
+.container .about .about_extend .about_box {
+    position: relative;
+    width: 350px;
+    height: 256px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 15px;
+}
+
+.container .about .about_extend {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+
+.container .about .about_content .box > div {
+     font-size: 25px;
+     font-weight: 600;
+}
+
+.container .about .about_content .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 380px;
+    height: 90px;
+    font-size: 20px;
+    margin: 20px 0px 0px;
+    text-align: center;
+    color: var(--header_color);
+}
+
+.container .about .about_content {
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.container .about > .header {
+    position: relative;
+    color: #0d4e96;
+    display: inline;
+    font-weight: bold;
+    line-height: 34.5px;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+
+.container > .about {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E0E1;
+    padding: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for slide app */
+
+.container .app_slide .app button:first-child {
+    margin-left: 100px;
+}
+
+.container .app_slide .app button:last-child {
+    right: 0px;
+    z-index: 1000;
+    margin-right: 100px;
+}
+
+
+
+.container .app_slide .app  button {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+        border: none;
+        cursor: pointer;
+}
+
+.container .app_slide .app {
+    position: relative;
+    width: 1200px;
+    height: 313px;
+
+}
+
+.container .app_slide {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #C6C7CA;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for section  */
+
+
+.container .content .right .content ul li > img {
+    margin-top: 50px;
+}
+.container .content .right .content ul li:last-child {
+    display: inline;
+    width: 245px;   
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 8px;
+
+}
+.container .content .right .content ul li span {
+    display: inline;
+    line-height: 30px;
+    margin-right: 2px;
+    text-align: justify;
+    color: var(--header_color);
+}
+.container .content .right .content ul li {
+    display: flex;
+    margin-top: 25px;
+}
+.container .content .right .content {
+    display: flex;
+    margin-top: 0;
+    padding: 0px 0px 0px 10px;
+}
+
+.container .content .right .content ul li > p {
+    position: relative;
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+
+.container .content .right .header {
+    position: relative;
+    text-align: center;
+    border-style: solid none;
+    color: var(--header_color);
+    font-size: 22px;
+    border-bottom:solid #333333 0.1px ;
+    font-weight: bold;
+    padding: 10px;
+    height: 50px;
+    line-height: 26px;
+}
+
+.container .content .right {
+    position: relative;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    background-color: white;
+    margin-left: 15px;
+    /* box-shadow: #010b3c 0px 30px 40px 0px; */
+}
+
+
+
+
+/* css for left section */
+.container .content .left .header {
+    font-size: 30px;
+    color: var(--header_color);
+    margin-bottom: 20px;
+}
+.container .content .left .container .left_list .list_item .left_list_content {
+    font-size: 14px;
+    line-height: 26px;
+
+}
+.container .content .left .container .left_list .list_item > img {
+    margin-right: 10px;
+}
+.container .content .left .container .left_list .list_item {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 5px;
+    text-align: justify;
+
+}
+.container .content .left .container .left_list {
+    position: relative;
+    width: 365px;
+
+}
+.container .content .left .container .left_content .about {
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container .content .left .container .left_content .heading {
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 5px;
+}
+.container .content .left .container .left_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+
+}
+
+.container .content .left .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content .left {
+    position: relative;
+    width: 800px;
+    height: 527px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: #010b3c 0px 10px 30px 0px;
+    display: flex;
+    flex-direction: column;  
+    padding: 15px;  
+}
+
+
+.container .content {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+
+
+
+
+/* css for sidebar */
+.container .row .sideBar {
+    position: relative;
+    width: 100%;
+}
+
+
+.container .row .sideBar ul li a span:hover{
+    transform: scale(1.3);
+}
+
+.container .row .sideBar ul li a span {
+    transition: 0.5s;
+}
+.container .row .sideBar ul li a{
+    position: relative;
+    display: block;
+    background-color: var(--header_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 20px;    
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.container .row .sideBar ul li {
+    position: relative;
+    width: 190px;
+    margin: 3px 5px;
+}
+
+
+.container .row .sideBar ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css */
+
+.container .slide .next {
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    margin-right: 150px;
+    cursor: pointer;
+}
+.container .slide .pre {
+    top: 50%;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.container .slide .next {
+    position: absolute;
+    z-index: 100;
+}
+.container .slide .pre {
+    position: absolute;
+    z-index: 100;   
+}
+
+
+.container .slide div img{
+    position: relative;
+    width: 100%;
+}
+
+.container .slide div {
+    position: relative;
+}
+
+.container .slide {
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for header_navbar */
+
+.container .row .navbar .header_logo {
+    position: relative;
+    transform: translateX(80px);
+}
+
+.container .row .navbar .nav {
+    position: relative;
+    margin-left: 100px;
+}
+.container .row .navbar .nav ul li a {
+    font-weight: bold;
+    color: var(--header_color);
+}
+.container .row .navbar .nav ul li {
+    position: relative;
+    margin: 0 7px;
+}
+
+.container .row .navbar .nav ul {
+    position: relative;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .row .navbar {
+    position: relative;
+    /* top: 0; */
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // css for header contact */
+.container .row .header li a {
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    font-size: 0.8rem;
+}
+
+.container .row .header li {
+    position: relative;
+    color: white;
+    padding: 7px 7px;
+    
+}
+
+
+.container .row .header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header_color);
+}
+
+
+
+
+
+.container .row {
+    position: relative;
+    width: 100%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 1000vh;
+
+}
